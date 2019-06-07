@@ -25,7 +25,7 @@ The LED screen indications :
 **Clk|Frequency    |Phy**  
 **0    3 500 000 Hz0-90**	<- Frequency and Phy For CLK0 and CLK1  
 **2    6 000 000 Hz   0**	<- Frequency for CLK2  
-**   720 000 000 Hz    **	<- Frequency for last PLL called  
+**.  720 000 000 Hz   .**	<- Frequency for last PLL called  
 
 Use the encoder to change the frequency, rotate counterclockwise (CW) to up the frequency,  
 rotate anticlockwise (CCW) to down the frequency.  
@@ -36,6 +36,7 @@ To jump from CLK0-1 to CLK2 frequency setup make a long push on encoder.
 
 - [ ] Resolve the bug of 0 before frequency for unit indicator  
 - [ ] See code for Serial control
+- [ ] Add preprossor directives to make screen in option
 
 ## Libraries used or copied
 
