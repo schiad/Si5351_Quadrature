@@ -1,7 +1,7 @@
 # Si5351_Quadrature
 
 Clock generator with quadrature phase signal and OLED display.  
-It's can be used in many RF applications.
+It can be used in many RF applications.
 
 ## Material list
 
@@ -16,8 +16,8 @@ It's can be used in many RF applications.
 
 ## Little guide of usage
 
-This code make 3 outputs CLK0, CLK1, and CLK2, it's make the same frequency in CLK0 and CLK1  
-with a quadrature (90° of phase) from about 3.2 MHz and 56.2 MHz, CLK2 is an independant output.
+This code makes 3 outputs CLK0, CLK1 and CLK2, it makes the same frequency in CLK0 and CLK1  
+with a quadrature (90° phase shift) from about 3.2 MHz and 56.2 MHz, CLK2 is an independent output.
 
 
 The LED screen indications : 
@@ -30,21 +30,21 @@ The LED screen indications :
 Use the encoder to change the frequency, rotate counterclockwise (CW) to up the frequency,  
 rotate anticlockwise (CCW) to down the frequency.  
 To change the multiple of step make short one click on encoder.  
-To jump from CLK0-1 to CLK2 frequency setup make a long push on encoder.  
+To jump from CLK0-1 to CLK2 frequency setup makes a long push on encoder.  
 
 ## Future features and bug to resolve
 
-- [ ] Resolve the bug of 0 before frequency for unit indicator  
+- [ ] Resolve the bug of 0 before frequency for the unit indicator  
 - [ ] See code for Serial control
-- [ ] Add preprossor directives to make screen in option
+- [ ] Add preprocessor directives to enable/disable optional display.
 
 ## Libraries used or copied
 
 Copied and modified	: [etherkit/Si5351](https://github.com/etherkit/Si5351Arduino "Library for Si5351")  
 
-You must to install this used libraries :  
-Used 			: [adafruit/Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library "Adafruit-GFX-Library")  
-Used			: [adafruit/Adafruit\_SSD1306](https://github.com/adafruit/Adafruit_SSD1306 "Adafruit_SSD1306")  
+You must install these libraries :  
+[adafruit/Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library "Adafruit-GFX-Library")  
+[adafruit/Adafruit\_SSD1306](https://github.com/adafruit/Adafruit_SSD1306 "Adafruit_SSD1306")  
 
 ## Thanks to
 
